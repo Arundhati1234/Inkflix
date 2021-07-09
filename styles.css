@@ -1,0 +1,207 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Noto Sans JP", sans-serif;
+  box-sizing: border-box;
+}
+
+#profile-img {
+  height: 30px;
+  width: auto;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+#logo {
+  height: 50px;
+  width: auto;
+}
+
+/*******************************************/
+
+.landing-page {
+  height: 100vh;
+  width: auto;
+  background: url("bg-tattoo.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.navbar {
+  text-align: center;
+  position: fixed;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+  color: white;
+}
+
+.navbar ul li {
+  flex: 1;
+  padding: 10px 0px 0px 0px;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.hover-effect:hover,
+li .hover-effect:hover {
+  font-weight: 900;
+}
+
+.submenu {
+  display: none;
+}
+
+.navbar ul li:hover > .submenu, .submenu ul {
+  display: block;
+  position: absolute;
+  font-weight: 300;
+}
+
+.arrow {
+  height: 15px;
+  width: auto;
+}
+
+.search-area {
+  display: flex;
+}
+
+#search-icon {
+  height: 15px;
+  width: auto;
+}
+
+.search-btn {
+  background-color: white;
+  border: none;
+  width: auto;
+  cursor: pointer;
+  padding: 0px 7px 3px 7px;
+  border-radius: 12px;
+  margin-left: 10px;
+}
+
+::placeholder {
+  color: white;
+}
+
+.search-text {
+  border: none;
+  border-bottom: 2px solid white;
+  padding: 5px;
+  background-color: transparent;
+  width: 70%;
+}
+
+.tagline{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+/***************************************************/
+
+.app{
+  margin: 15px;
+  display: block; 
+  justify-content: center;
+}
+
+
+
+
+
+.app-buttons-div{
+  display: flex; 
+  justify-content: center;
+}
+
+.app-header{
+  text-align: center;
+  margin: 30px 0px;;
+}
+
+.app-buttons {
+  background-color: white;
+  border: none;
+  width: auto;
+  cursor: pointer;
+  padding: 0px 7px 3px 7px;
+  border-radius: 12px;
+  margin-left: 10px;
+  display: flex;
+}
+
+.app-icon {
+  flex: 1;
+  height: 70px;
+  width: auto;
+  margin: 30px 30px;
+}
+
+/*****************************************/
+
+.footer{
+  display: flex;
+  background-color: rgb(53, 51, 51);
+}
+
+.footer-headers{
+  color: white;
+  font-size: 20px;
+  margin: 30px 8px;
+}
+
+.each-footer-div{
+  flex:1;
+}
+
+.explore-div{
+  margin-left: 30px;
+}
+
+.footer-list li{
+  margin: 12px 8px;
+}
+
+.footer-list li a{
+  list-style: none;
+  text-decoration: none;
+  color: rgb(194, 189, 189);
+}
+
+.footer-list li a:hover{
+  color: white;
+}
+
+.legal-div{
+  flex:1.2;
+}
+
+.join-us{
+  font-size: 17px;
+}
+
+.get-started-btn{
+  padding: 10px 12px;
+  border-radius: 20px;
+  background-color: rgb(53, 51, 51);
+  border: 2px solid white;
+  color: white
+}
+
+.get-started-btn:hover{
+  color:rgb(53, 51, 51);
+  background-color: white;  
+  transition: 0.5s ease;
+}
